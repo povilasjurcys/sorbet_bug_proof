@@ -1,4 +1,8 @@
 # typed: false
+
+require 'sorbet-runtime'
+T::Configuration.default_checked_level = :tests
+
 require_relative 'boot'
 
 require 'rails/all'
